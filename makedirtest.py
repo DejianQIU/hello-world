@@ -35,5 +35,5 @@ print(os.listdir()) #eql. to ls
 
 # shell=True necessary when the commands are built in shell
 # shell=True allows input the entire command as a string and execute (eqvlt. to subp.run(['ls, -la']))
-#subp.run('ls -la', shell=True)
+subp.run('ls -la', shell=True)
 
